@@ -1,37 +1,27 @@
-# react-native-image-editor
+# react-native-image-editor-next
 
 Image Editor Native module for React Native.
-
-[![Build Status][build-badge]][build]
-[![Version][version-badge]][package]
-[![MIT License][license-badge]][license]
-[![PRs Welcome][prs-welcome-badge]][prs-welcome]
-[![Lean Core Badge][lean-core-badge]][lean-core-issue]
 
 ## Getting started
 
 ### Install
 
-`yarn add @react-native-community/image-editor`
+`yarn add react-native-image-editor-next`
 
 or
 
-`npm install @react-native-community/image-editor --save`
+`npm install react-native-image-editor-next --save`
 
 ### Install Pods
 
 `npx pod-install`
-
-### Link
-
-`react-native link @react-native-community/image-editor`
 
 ## Usage
 
 Start by importing the library:
 
 ```javascript
-import ImageEditor from "@react-native-community/image-editor";
+import ImageEditor from "react-native-image-editor-next";
 ```
 
 ### Crop image
@@ -64,15 +54,3 @@ If the cropping process is successful, the resultant cropped image will be store
 ```
 
 For more advanced usage check our [example app](/example/src/App.js).
-
-<!-- badges -->
-[build-badge]: https://img.shields.io/circleci/project/github/react-native-community/react-native-image-editor/master.svg?style=flat-square
-[build]: https://circleci.com/gh/react-native-community/react-native-image-editor
-[version-badge]: https://img.shields.io/npm/v/@react-native-community/image-editor.svg?style=flat-square
-[package]: https://www.npmjs.com/package/@react-native-community/image-editor
-[license-badge]: https://img.shields.io/npm/l/@react-native-community/image-editor.svg?style=flat-square
-[license]: https://opensource.org/licenses/MIT
-[prs-welcome-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
-[prs-welcome]: http://makeapullrequest.com
-[lean-core-badge]: https://img.shields.io/badge/Lean%20Core-Extracted-brightgreen.svg?style=flat-square
-[lean-core-issue]: https://github.com/facebook/react-native/issues/23313

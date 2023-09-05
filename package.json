@@ -1,12 +1,12 @@
 {
-  "name": "@react-native-community/image-editor",
-  "version": "2.3.0",
+  "name": "react-native-image-editor-next",
+  "version": "1.0.0",
   "description": "React Native Image Editing native modules for iOS & Android",
   "main": "lib/ImageEditor.js",
   "typings": "typings/index.d.ts",
-  "author": "Dawid Urbaniak <dawidu@onet.pl>",
+  "author": "Cuong Lam <cuong@hipvan.com>",
   "contributors": [],
-  "homepage": "https://github.com/react-native-community/react-native-image-editor#readme",
+  "homepage": "https://github.com/thanhcuong1990/react-native-image-editor#readme",
   "license": "MIT",
   "keywords": [
     "react-native",
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-native-community/react-native-image-editor.git"
+    "url": "https://github.com/thanhcuong1990/react-native-image-editor.git"
   },
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
